@@ -58,8 +58,6 @@ function App() {
       message += "Bạn có thể xem toàn bộ lịch <a href='https://docs.google.com/spreadsheets/d/1pS_8eZI5A_Wx2S76bXDXAlA2T34nshhjKYgxJQJg8o8/edit#gid=1645683997'>ở đây</a>";
 
     }
-    console.log(message);
-
     function send_to_telegram(textMessage) {
         var payload = {
             "method": "sendMessage",
@@ -77,7 +75,7 @@ function App() {
         console.log("Send Telegram ok");
     }
 
-    // send_to_telegram(message);
+    send_to_telegram(message);
     return (
         <div className="App">
             <header className="App-header">

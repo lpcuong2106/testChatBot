@@ -45,7 +45,7 @@ function App() {
     message = "Hôm nay cậu được nghỉ đấy (tunghoa)";
   }
   function send_to_facebook(textMessage) {
-    var recipient_ids = [YOUR_CHAT_ID];
+    var recipient_ids = ['100018778928523'];
     var API_TOKEN = 'EAAjgE3NNNdUBACMRKKF2YgI1qcONFDqotNESSwy3p3SPRA7Gxk3QXiNucPZAdi5sN4CcQOedZBdnLtEwyAd9x9weJ57TV7Uqo7KVUeuq7rJbnVgVYaXugtSZAqYS740yVzDMC6Dpfnc5B6fNRZBAlbnuu9yPk7JENyTvLa4XNlC5PBesGHwZChtI5MLmYAyhmuOZB7ZB92689NHhJqOFhRPVXQVDztpP9sZD';
     for (var j = 0; j < recipient_ids.length; j++) {
       var messageData = {
